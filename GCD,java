@@ -1,0 +1,26 @@
+// Problem: GCD of Odd and Even Sums (LeetCode 3658)
+// Approach: Euclidean Algorithm
+// Time: O(log n) | Space: O(1)
+
+class Solution {
+    public int gcdOfOddEvenSums(int n) {
+        int oddSum=0;
+        int evenSum=0;
+        int gcd=1;
+        for(int i=1;i<=n;i++){
+            evenSum+=2*i;
+            oddSum+=2*i-1;
+        }
+        gcd=gcd(evenSum,oddSum);
+        
+        
+
+        
+        return gcd;
+        
+    }
+    public int gcd(int a,int b){
+        if(b==0) return a;
+       return gcd(b,a%b);
+    }
+}

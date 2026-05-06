@@ -12,3 +12,15 @@ class Solution {
             if(target==matrix[row][column]){
                 return true;
             }
+            else if(target>matrix[row][column]){
+                column++;
+            }
+            else if(target<matrix[row][column]){
+                row--;
+            }
+            
+        }
+        return false;
+        
+    }
+}

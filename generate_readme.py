@@ -23,7 +23,7 @@ OUTPUT_FILE = "README.md"
 # Each tuple is (Topic Name, [keywords to match in filename, lowercase])
 TOPIC_KEYWORDS = [
     ("Binary Search", ["binarysearch", "lowerbound", "upperbound", "searchinsert",
-                        "searchmatrix", "findkrotation", "checkifarraysorted",
+                        "searchmatrix", "findkrotation", "checkifarrayissorted",
                         "findminimuminrotated", "searchinrotated"]),
     ("Matrix", ["matrix", "diagonalsum", "spiral", "rotateimage", "setmatrixzero"]),
     ("Sorting", ["mergesort", "quicksort", "heapsort", "countinversions", "reversepairs"]),

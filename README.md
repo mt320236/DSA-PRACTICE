@@ -34,6 +34,7 @@ A collection of Data Structures & Algorithms problems solved in **Java**, primar
 | Problem | File |
 |---|---|
 | Binary Search | `BinarySearch.java` |
+| Check If Array Is Sorted And Rotated | `CheckIfArrayIsSortedAndRotated.java` |
 | Find K Rotation | `FindKRotation.java` |
 | Find Minimumin Rotated Sorted Array | `FindMinimuminRotatedSortedArray.java` |
 | Lower Bound | `LowerBound.java` |
@@ -88,7 +89,6 @@ A collection of Data Structures & Algorithms problems solved in **Java**, primar
 ### Uncategorized
 | Problem | File |
 |---|---|
-| Check If Array Is Sorted And Rotated | `CheckIfArrayIsSortedAndRotated.java` |
 | Single Element In Sorted Array | `SingleElementInSortedArray.java` |
 
 ---
